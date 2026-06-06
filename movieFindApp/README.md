@@ -1,7 +1,8 @@
 # CineFinder
 
 React + Vite 기반 영화 탐색 웹 애플리케이션입니다. 사용자는 인기 영화를 확인하고, 제목으로 검색하고, 장르별로 필터링하며, 관심 영화를 LocalStorage 즐겨찾기에 저장할 수 있습니다.
-![Uploading image.png…]()
+<img width="1206" height="905" alt="image" src="https://github.com/user-attachments/assets/dba99271-23b1-4918-896f-66545f74860e" />
+
 
 
 ## 주요 기능
