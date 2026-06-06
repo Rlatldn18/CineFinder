@@ -65,19 +65,6 @@ TMDB API를 사용합니다.
 
 API 키가 없으면 `src/utils/sampleMovies.js`의 샘플 데이터로 실행됩니다.
 
-## 실행 방법
-
-```bash
-npm install
-npm run dev
-```
-
-TMDB API를 사용하려면 프로젝트 루트에 `.env`를 만들고 다음 값을 입력합니다.
-
-```env
-VITE_TMDB_API_KEY=본인_TMDB_API_KEY
-```
-
 ## 트러블 슈팅
 
 - API 키가 없을 때: 샘플 데이터로 자동 전환하여 화면이 비지 않도록 처리했습니다.
