@@ -82,15 +82,3 @@ VITE_TMDB_API_KEY=본인_TMDB_API_KEY
 - LocalStorage 중복 저장: `useFavorites`에서 같은 `id`가 이미 있으면 추가하지 않습니다.
 - 검색 결과 없음: 빈 목록 메시지를 표시해 사용자에게 현재 상태를 안내합니다.
 
-## 발표 포인트
-
-사용자 검색어 입력 -> Axios 요청 -> TMDB API 응답 -> React 상태 업데이트 -> UI 렌더링 흐름을 설명하면 좋습니다.
-
-재사용 컴포넌트(`MovieCard`, `MovieList`), Custom Hook(`useMovies`, `useFavorites`), Context API(`ThemeContext`), Router 기반 SPA 구조가 분리되어 있습니다.
-
-## 향후 개선 계획
-
-- 페이지네이션 UI 추가
-- 영화 리뷰 작성 기능
-- 즐겨찾기 정렬 및 검색
-- Recharts를 활용한 장르별 선호도 차트
